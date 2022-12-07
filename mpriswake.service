@@ -1,0 +1,10 @@
+[Unit]
+Description=MprisWake daemon
+
+[Service]
+ExecStart=/home/nicolai/Daten/Programmieren/MprisWake/main.py
+Restart=always
+RestartSec=10min
+
+[Install]
+WantedBy=default.target
